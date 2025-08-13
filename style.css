@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  .search input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f5f5f5;
+    width: 300px;
+  }
+  
+  .user img {
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .sidebar {
+    background-color: #282828;
+    color: #fff;
+    padding: 20px;
+    flex: 0 0 200px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .main-header-buttons .btn {
+    margin-left: 10px;
+  }
+  
+  .main-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  
